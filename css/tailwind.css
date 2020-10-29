@@ -1,0 +1,14 @@
+/* this is a directive with an argument of "base" */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CTA button combines classes made from TWCSS
+and two overrides I built into the tailwind.config (colors) */
+
+.cta-btn {
+  @apply inline-block px-12 py-3 bg-turing-primary text-sm text-turing-primary-dark uppercase tracking-wider font-semibold rounded-full shadow-lg;
+}
+
+
+/* package.json has a build script to read this file, then build the public/build/css file */
