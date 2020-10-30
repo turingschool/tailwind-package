@@ -1,7 +1,7 @@
 {
-  "name": "turing-tailwind-4",
+  "name": "turing-tailwind-5",
   "version": "1.0.0",
-  "description": "",
+  "description": "hard coded cta-btn class to see if it works",
   "main": "index.js",
   "scripts": {
     "build": "postcss css/tailwind.css -o public/build/tailwind.css"

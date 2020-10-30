@@ -10,5 +10,4 @@ and two overrides I built into the tailwind.config (colors) */
   @apply inline-block px-12 py-3 bg-turing-primary text-sm text-turing-primary-dark uppercase tracking-wider font-semibold rounded-full shadow-lg;
 }
 
-
 /* package.json has a build script to read this file, then build the public/build/css file */
