@@ -1,8 +1,8 @@
 {
-  "name": "turing-tailwind",
+  "name": "turing-tailwind-4",
   "version": "1.0.0",
   "description": "",
-  "main": "public/build/tailwind.css",
+  "main": "index.js",
   "scripts": {
     "build": "postcss css/tailwind.css -o public/build/tailwind.css"
   },

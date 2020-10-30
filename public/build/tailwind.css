@@ -21608,27 +21608,30 @@ video {
           animation: bounce 1s infinite;
 }
 
+/* CTA button combines classes made from TWCSS
+and two overrides I built into the tailwind.config (colors) */
+
 .cta-btn {
   display: inline-block;
-  padding-left: 6rem;
-  padding-right: 6rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   --bg-opacity: 1;
   background-color: #12f1fc;
   background-color: rgba(18, 241, 252, var(--bg-opacity));
+  font-size: 0.875rem;
   --text-opacity: 1;
   color: #036575;
   color: rgba(3, 101, 117, var(--text-opacity));
-  border-radius: 9999px;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  font-size: 0.875rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   font-weight: 600;
+  border-radius: 9999px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
-/* package.json has a script to process this file */
+/* package.json has a build script to read this file, then build the public/build/css file */
 
 @media (min-width: 640px) {
   .sm\:container {
